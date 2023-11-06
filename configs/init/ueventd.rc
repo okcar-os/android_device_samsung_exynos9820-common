@@ -1,3 +1,5 @@
+import /vendor/etc/init/hw/ueventd.okcar.rc
+
 /dev/mali0                0666   system     system
 /dev/ion                  0666   system     system
 /dev/ump                  0666   system     graphics
@@ -269,9 +271,3 @@
 /dev/bbd_patch            0660   system     system
 /dev/bbd_urgent_patch     0660   system     system
 /dev/ttyBCM*              0660   system     system
-
-# Hid
-/dev/hidg0             0660   system       system
-
-# Okcar
-/dev/okcar             0660   system       system
